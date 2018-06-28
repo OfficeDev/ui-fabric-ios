@@ -13,7 +13,24 @@
 		A5CEC21720E436F10016922A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CEC21520E436F10016922A /* Main.storyboard */; };
 		A5CEC21920E436F20016922A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5CEC21820E436F20016922A /* Assets.xcassets */; };
 		A5CEC21C20E436F20016922A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CEC21A20E436F20016922A /* LaunchScreen.storyboard */; };
+		A5CEC22C20E450340016922A /* OfficeUIFabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CEC22A20E44FBF0016922A /* OfficeUIFabric.framework */; };
+		A5CEC22D20E450340016922A /* OfficeUIFabric.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5CEC22A20E44FBF0016922A /* OfficeUIFabric.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A5CEC23420E452FA0016922A /* MSButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CEC23320E452FA0016922A /* MSButtonController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A5CEC22E20E450340016922A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A5CEC22D20E450340016922A /* OfficeUIFabric.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A5CEC20C20E436F10016922A /* OfficeUIFabric.Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfficeUIFabric.Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +41,8 @@
 		A5CEC21820E436F20016922A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5CEC21B20E436F20016922A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5CEC21D20E436F20016922A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5CEC22A20E44FBF0016922A /* OfficeUIFabric.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OfficeUIFabric.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CEC23320E452FA0016922A /* MSButtonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSButtonController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5CEC22C20E450340016922A /* OfficeUIFabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +62,7 @@
 			children = (
 				A5CEC20E20E436F10016922A /* OfficeUIFabric.Demo */,
 				A5CEC20D20E436F10016922A /* Products */,
+				A5CEC22920E44FBF0016922A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +77,7 @@
 		A5CEC20E20E436F10016922A /* OfficeUIFabric.Demo */ = {
 			isa = PBXGroup;
 			children = (
+				A5CEC23220E452B80016922A /* ControlDemos */,
 				A5CEC20F20E436F10016922A /* AppDelegate.swift */,
 				A5CEC21120E436F10016922A /* MasterViewController.swift */,
 				A5CEC21320E436F10016922A /* DetailViewController.swift */,
@@ -65,6 +87,22 @@
 				A5CEC21D20E436F20016922A /* Info.plist */,
 			);
 			path = OfficeUIFabric.Demo;
+			sourceTree = "<group>";
+		};
+		A5CEC22920E44FBF0016922A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5CEC22A20E44FBF0016922A /* OfficeUIFabric.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5CEC23220E452B80016922A /* ControlDemos */ = {
+			isa = PBXGroup;
+			children = (
+				A5CEC23320E452FA0016922A /* MSButtonController.swift */,
+			);
+			path = ControlDemos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +115,7 @@
 				A5CEC20820E436F10016922A /* Sources */,
 				A5CEC20920E436F10016922A /* Frameworks */,
 				A5CEC20A20E436F10016922A /* Resources */,
+				A5CEC22E20E450340016922A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,6 +180,7 @@
 				A5CEC21420E436F10016922A /* DetailViewController.swift in Sources */,
 				A5CEC21220E436F10016922A /* MasterViewController.swift in Sources */,
 				A5CEC21020E436F10016922A /* AppDelegate.swift in Sources */,
+				A5CEC23420E452FA0016922A /* MSButtonController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
