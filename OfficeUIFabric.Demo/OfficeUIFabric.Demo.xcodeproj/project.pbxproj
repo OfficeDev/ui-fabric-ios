@@ -81,9 +81,9 @@
 				A5CEC20F20E436F10016922A /* AppDelegate.swift */,
 				A5CEC21120E436F10016922A /* MasterViewController.swift */,
 				A5CEC21320E436F10016922A /* DetailViewController.swift */,
+				A5CEC21A20E436F20016922A /* LaunchScreen.storyboard */,
 				A5CEC21520E436F10016922A /* Main.storyboard */,
 				A5CEC21820E436F20016922A /* Assets.xcassets */,
-				A5CEC21A20E436F20016922A /* LaunchScreen.storyboard */,
 				A5CEC21D20E436F20016922A /* Info.plist */,
 			);
 			path = OfficeUIFabric.Demo;
