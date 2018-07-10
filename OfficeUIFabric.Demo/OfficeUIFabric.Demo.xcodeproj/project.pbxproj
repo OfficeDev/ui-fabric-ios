@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A591A3F420F429EB001ED23B /* Demos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A591A3F320F429EB001ED23B /* Demos.swift */; };
 		A5CEC21020E436F10016922A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CEC20F20E436F10016922A /* AppDelegate.swift */; };
 		A5CEC21220E436F10016922A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CEC21120E436F10016922A /* MasterViewController.swift */; };
 		A5CEC21420E436F10016922A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CEC21320E436F10016922A /* DetailViewController.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A591A3F320F429EB001ED23B /* Demos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demos.swift; sourceTree = "<group>"; };
 		A5CEC20C20E436F10016922A /* OfficeUIFabric.Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfficeUIFabric.Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CEC20F20E436F10016922A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5CEC21120E436F10016922A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A591A3F520F42A9E001ED23B /* Shell */ = {
+			isa = PBXGroup;
+			children = (
+				A5CEC21120E436F10016922A /* MasterViewController.swift */,
+				A5CEC21320E436F10016922A /* DetailViewController.swift */,
+			);
+			name = Shell;
+			sourceTree = "<group>";
+		};
 		A5CEC20320E436F10016922A = {
 			isa = PBXGroup;
 			children = (
@@ -77,10 +88,10 @@
 		A5CEC20E20E436F10016922A /* OfficeUIFabric.Demo */ = {
 			isa = PBXGroup;
 			children = (
-				A5CEC23220E452B80016922A /* ControlDemos */,
+				A5CEC23220E452B80016922A /* Demos */,
+				A591A3F520F42A9E001ED23B /* Shell */,
 				A5CEC20F20E436F10016922A /* AppDelegate.swift */,
-				A5CEC21120E436F10016922A /* MasterViewController.swift */,
-				A5CEC21320E436F10016922A /* DetailViewController.swift */,
+				A591A3F320F429EB001ED23B /* Demos.swift */,
 				A5CEC21A20E436F20016922A /* LaunchScreen.storyboard */,
 				A5CEC21520E436F10016922A /* Main.storyboard */,
 				A5CEC21820E436F20016922A /* Assets.xcassets */,
@@ -97,12 +108,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A5CEC23220E452B80016922A /* ControlDemos */ = {
+		A5CEC23220E452B80016922A /* Demos */ = {
 			isa = PBXGroup;
 			children = (
 				A5CEC23320E452FA0016922A /* MSButtonController.swift */,
 			);
-			path = ControlDemos;
+			path = Demos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +191,7 @@
 				A5CEC21420E436F10016922A /* DetailViewController.swift in Sources */,
 				A5CEC21220E436F10016922A /* MasterViewController.swift in Sources */,
 				A5CEC21020E436F10016922A /* AppDelegate.swift in Sources */,
+				A591A3F420F429EB001ED23B /* Demos.swift in Sources */,
 				A5CEC23420E452FA0016922A /* MSButtonController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
