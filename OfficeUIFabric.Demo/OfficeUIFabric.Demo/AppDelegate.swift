@@ -8,28 +8,24 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
     var window: UIWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]?) -> Bool {
         let splitViewController = window!.rootViewController as! UISplitViewController
-        let navigationController = splitViewController.viewControllers.last as! UINavigationController
-        navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
+        let masterContainer = splitViewController.viewControllers.first as! UINavigationController
+        let masterController = masterContainer.topViewController as! MasterViewController
+        let detailContainer = splitViewController.viewControllers.last as! UINavigationController
+        let detailController = detailContainer.topViewController!
+
+        masterController.demoPlaceholder = detailController
+        detailController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
         splitViewController.delegate = self
+
         return true
     }
 
-    // MARK: - Split view
+    // MARK: Split view
 
-    func splitViewController(_ splitViewController: UISplitViewController, collapseSecondary secondaryViewController:UIViewController, onto primaryViewController:UIViewController) -> Bool {
-        guard let secondaryAsNavController = secondaryViewController as? UINavigationController else {
-            return false
-        }
-        guard let topAsDetailController = secondaryAsNavController.topViewController as? DetailViewController else {
-            return false
-        }
-        if topAsDetailController.demoControllerClass == nil {
-            // Return true to indicate that we have handled the collapse by doing nothing; the secondary controller will be discarded.
-            return true
-        }
-        return false
+    func splitViewController(_ splitViewController: UISplitViewController, collapseSecondary secondaryViewController: UIViewController, onto primaryViewController: UIViewController) -> Bool {
+        // Return true to indicate that we don't care about DetailViewController - it will be removed
+        return (secondaryViewController as? UINavigationController)?.topViewController is DetailViewController
     }
 }
