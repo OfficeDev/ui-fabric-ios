@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A589F856211BA71000471C23 /* MSLabelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A589F855211BA71000471C23 /* MSLabelController.swift */; };
+		A589F856211BA71000471C23 /* MSLabelDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A589F855211BA71000471C23 /* MSLabelDemoController.swift */; };
 		A591A3F420F429EB001ED23B /* Demos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A591A3F320F429EB001ED23B /* Demos.swift */; };
 		A5CEC21020E436F10016922A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CEC20F20E436F10016922A /* AppDelegate.swift */; };
 		A5CEC21220E436F10016922A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CEC21120E436F10016922A /* MasterViewController.swift */; };
@@ -17,7 +17,9 @@
 		A5CEC21C20E436F20016922A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CEC21A20E436F20016922A /* LaunchScreen.storyboard */; };
 		A5CEC22C20E450340016922A /* OfficeUIFabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CEC22A20E44FBF0016922A /* OfficeUIFabric.framework */; };
 		A5CEC22D20E450340016922A /* OfficeUIFabric.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5CEC22A20E44FBF0016922A /* OfficeUIFabric.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A5CEC23420E452FA0016922A /* MSButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CEC23320E452FA0016922A /* MSButtonController.swift */; };
+		A5CEC23420E452FA0016922A /* MSButtonDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CEC23320E452FA0016922A /* MSButtonDemoController.swift */; };
+		A5DCA75E211E3A92005F4CB7 /* MSDrawerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DCA75D211E3A92005F4CB7 /* MSDrawerDemoController.swift */; };
+		A5DCA760211E3B4C005F4CB7 /* DemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DCA75F211E3B4C005F4CB7 /* DemoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,7 +37,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A589F855211BA71000471C23 /* MSLabelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSLabelController.swift; sourceTree = "<group>"; };
+		A589F855211BA71000471C23 /* MSLabelDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSLabelDemoController.swift; sourceTree = "<group>"; };
 		A591A3F320F429EB001ED23B /* Demos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demos.swift; sourceTree = "<group>"; };
 		A5CEC20C20E436F10016922A /* OfficeUIFabric.Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfficeUIFabric.Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CEC20F20E436F10016922A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +48,9 @@
 		A5CEC21B20E436F20016922A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5CEC21D20E436F20016922A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5CEC22A20E44FBF0016922A /* OfficeUIFabric.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OfficeUIFabric.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5CEC23320E452FA0016922A /* MSButtonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSButtonController.swift; sourceTree = "<group>"; };
+		A5CEC23320E452FA0016922A /* MSButtonDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSButtonDemoController.swift; sourceTree = "<group>"; };
+		A5DCA75D211E3A92005F4CB7 /* MSDrawerDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSDrawerDemoController.swift; sourceTree = "<group>"; };
+		A5DCA75F211E3B4C005F4CB7 /* DemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 			children = (
 				A5CEC21120E436F10016922A /* MasterViewController.swift */,
 				A5CEC21320E436F10016922A /* DetailViewController.swift */,
+				A5DCA75F211E3B4C005F4CB7 /* DemoController.swift */,
 			);
 			name = Shell;
 			sourceTree = "<group>";
@@ -113,8 +118,9 @@
 		A5CEC23220E452B80016922A /* Demos */ = {
 			isa = PBXGroup;
 			children = (
-				A5CEC23320E452FA0016922A /* MSButtonController.swift */,
-				A589F855211BA71000471C23 /* MSLabelController.swift */,
+				A5CEC23320E452FA0016922A /* MSButtonDemoController.swift */,
+				A5DCA75D211E3A92005F4CB7 /* MSDrawerDemoController.swift */,
+				A589F855211BA71000471C23 /* MSLabelDemoController.swift */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -191,12 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5DCA760211E3B4C005F4CB7 /* DemoController.swift in Sources */,
+				A5DCA75E211E3A92005F4CB7 /* MSDrawerDemoController.swift in Sources */,
 				A5CEC21420E436F10016922A /* DetailViewController.swift in Sources */,
 				A5CEC21220E436F10016922A /* MasterViewController.swift in Sources */,
-				A589F856211BA71000471C23 /* MSLabelController.swift in Sources */,
+				A589F856211BA71000471C23 /* MSLabelDemoController.swift in Sources */,
 				A5CEC21020E436F10016922A /* AppDelegate.swift in Sources */,
 				A591A3F420F429EB001ED23B /* Demos.swift in Sources */,
-				A5CEC23420E452FA0016922A /* MSButtonController.swift in Sources */,
+				A5CEC23420E452FA0016922A /* MSButtonDemoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
