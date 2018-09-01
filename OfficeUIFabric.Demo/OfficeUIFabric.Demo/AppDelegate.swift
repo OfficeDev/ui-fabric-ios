@@ -2,7 +2,18 @@
 //  Copyright © 2018 Microsoft Corporation. All rights reserved.
 //
 
+#if DOGFOOD
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
+import AppCenterDistribute
+import AppCenterPush
+#endif
 import UIKit
+
+#if DOGFOOD
+private let appCenterSecret = "da3f18f5-0392-4d18-9543-a0c47a1f3681"
+#endif
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
@@ -18,6 +29,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         masterController.demoPlaceholder = detailController
         detailController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
         splitViewController.delegate = self
+
+        #if DOGFOOD
+        MSAppCenter.start(appCenterSecret, withServices: [
+            MSAnalytics.self,
+            MSCrashes.self,
+            MSDistribute.self,
+            MSPush.self
+        ])
+        #endif
 
         return true
     }
