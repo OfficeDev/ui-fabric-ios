@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		693773C40AE2B690393E36D2 /* Pods_OfficeUIFabric_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67438D47B2FE8A0087C02A1C /* Pods_OfficeUIFabric_Demo.framework */; };
 		A589F856211BA71000471C23 /* MSLabelDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A589F855211BA71000471C23 /* MSLabelDemoController.swift */; };
 		A591A3F420F429EB001ED23B /* Demos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A591A3F320F429EB001ED23B /* Demos.swift */; };
 		A5CEC21020E436F10016922A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CEC20F20E436F10016922A /* AppDelegate.swift */; };
@@ -37,6 +38,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		076DB4FE89F675C1A3A7A5C3 /* Pods-OfficeUIFabric.Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeUIFabric.Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OfficeUIFabric.Demo/Pods-OfficeUIFabric.Demo.release.xcconfig"; sourceTree = "<group>"; };
+		67438D47B2FE8A0087C02A1C /* Pods_OfficeUIFabric_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OfficeUIFabric_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52B637021376C7A009F7ADF /* Dogfood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dogfood.entitlements; sourceTree = "<group>"; };
+		A52B637A2137834A009F7ADF /* Pods-OfficeUIFabric.Demo.dogfood.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-OfficeUIFabric.Demo.dogfood.xcconfig"; path = "Pods/Target Support Files/Pods-OfficeUIFabric.Demo/Pods-OfficeUIFabric.Demo.dogfood.xcconfig"; sourceTree = "<group>"; };
 		A589F855211BA71000471C23 /* MSLabelDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSLabelDemoController.swift; sourceTree = "<group>"; };
 		A591A3F320F429EB001ED23B /* Demos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demos.swift; sourceTree = "<group>"; };
 		A5CEC20C20E436F10016922A /* OfficeUIFabric.Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfficeUIFabric.Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +56,7 @@
 		A5CEC23320E452FA0016922A /* MSButtonDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSButtonDemoController.swift; sourceTree = "<group>"; };
 		A5DCA75D211E3A92005F4CB7 /* MSDrawerDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSDrawerDemoController.swift; sourceTree = "<group>"; };
 		A5DCA75F211E3B4C005F4CB7 /* DemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoController.swift; sourceTree = "<group>"; };
+		CC45042B8AC98E3E251FC7E9 /* Pods-OfficeUIFabric.Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeUIFabric.Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OfficeUIFabric.Demo/Pods-OfficeUIFabric.Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +65,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5CEC22C20E450340016922A /* OfficeUIFabric.framework in Frameworks */,
+				693773C40AE2B690393E36D2 /* Pods_OfficeUIFabric_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8FBF1C655C74CB277BFEF839 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC45042B8AC98E3E251FC7E9 /* Pods-OfficeUIFabric.Demo.debug.xcconfig */,
+				A52B637A2137834A009F7ADF /* Pods-OfficeUIFabric.Demo.dogfood.xcconfig */,
+				076DB4FE89F675C1A3A7A5C3 /* Pods-OfficeUIFabric.Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A52B637E21387566009F7ADF /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				A52B637021376C7A009F7ADF /* Dogfood.entitlements */,
+				A5CEC21D20E436F20016922A /* Info.plist */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
 		A591A3F520F42A9E001ED23B /* Shell */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +107,7 @@
 				A5CEC20E20E436F10016922A /* OfficeUIFabric.Demo */,
 				A5CEC20D20E436F10016922A /* Products */,
 				A5CEC22920E44FBF0016922A /* Frameworks */,
+				8FBF1C655C74CB277BFEF839 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +122,7 @@
 		A5CEC20E20E436F10016922A /* OfficeUIFabric.Demo */ = {
 			isa = PBXGroup;
 			children = (
+				A52B637E21387566009F7ADF /* Configuration */,
 				A5CEC23220E452B80016922A /* Demos */,
 				A591A3F520F42A9E001ED23B /* Shell */,
 				A5CEC20F20E436F10016922A /* AppDelegate.swift */,
@@ -102,7 +130,6 @@
 				A5CEC21A20E436F20016922A /* LaunchScreen.storyboard */,
 				A5CEC21520E436F10016922A /* Main.storyboard */,
 				A5CEC21820E436F20016922A /* Assets.xcassets */,
-				A5CEC21D20E436F20016922A /* Info.plist */,
 			);
 			path = OfficeUIFabric.Demo;
 			sourceTree = "<group>";
@@ -111,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				A5CEC22A20E44FBF0016922A /* OfficeUIFabric.framework */,
+				67438D47B2FE8A0087C02A1C /* Pods_OfficeUIFabric_Demo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,10 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5CEC22020E436F20016922A /* Build configuration list for PBXNativeTarget "OfficeUIFabric.Demo" */;
 			buildPhases = (
+				DAFF5A3F963CB63CE2AF6089 /* [CP] Check Pods Manifest.lock */,
 				A5CEC20820E436F10016922A /* Sources */,
 				A5CEC20920E436F10016922A /* Frameworks */,
 				A5CEC20A20E436F10016922A /* Resources */,
 				A5CEC22E20E450340016922A /* Embed Frameworks */,
+				FA0B37855C2572C2B62524DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,6 +188,11 @@
 				TargetAttributes = {
 					A5CEC20B20E436F10016922A = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -191,6 +226,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DAFF5A3F963CB63CE2AF6089 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OfficeUIFabric.Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA0B37855C2572C2B62524DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OfficeUIFabric.Demo/Pods-OfficeUIFabric.Demo-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/AppCenter/AppCenterDistributeResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AppCenterDistributeResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OfficeUIFabric.Demo/Pods-OfficeUIFabric.Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A5CEC20820E436F10016922A /* Sources */ = {
@@ -230,10 +304,94 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A52B636D21376228009F7ADF /* Dogfood */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_NAME = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DOGFOOD;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Dogfood;
+		};
+		A52B636E21376228009F7ADF /* Dogfood */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A52B637A2137834A009F7ADF /* Pods-OfficeUIFabric.Demo.dogfood.xcconfig */;
+			buildSettings = {
+				APPCENTER_SECRET = "da3f18f5-0392-4d18-9543-a0c47a1f3681";
+				APPCENTER_URL_SCHEME = "appcenter-$(APPCENTER_SECRET)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_NAME = "UI Fabric";
+				CODE_SIGN_ENTITLEMENTS = OfficeUIFabric.Demo/Dogfood.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9KBH5RKYEW;
+				INFOPLIST_FILE = OfficeUIFabric.Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.OfficeUIFabricDemo-df";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4596e7d8-5232-4b9f-82bf-63883e38cd5c";
+				PROVISIONING_PROFILE_SPECIFIER = "Office Fabric Demo Dogfood Distribution";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Dogfood;
+		};
 		A5CEC21E20E436F20016922A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_NAME = "";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -294,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_NAME = "";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -346,8 +505,11 @@
 		};
 		A5CEC22120E436F20016922A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC45042B8AC98E3E251FC7E9 /* Pods-OfficeUIFabric.Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_NAME = "UI Fabric DEV";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = OfficeUIFabric.Demo/Info.plist;
@@ -355,8 +517,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.OfficeUIFabric-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.OfficeUIFabricDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,8 +527,11 @@
 		};
 		A5CEC22220E436F20016922A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076DB4FE89F675C1A3A7A5C3 /* Pods-OfficeUIFabric.Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_NAME = "UI Fabric";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = OfficeUIFabric.Demo/Info.plist;
@@ -373,8 +539,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.OfficeUIFabric-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.OfficeUIFabricDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -388,6 +555,7 @@
 			buildConfigurations = (
 				A5CEC21E20E436F20016922A /* Debug */,
 				A5CEC21F20E436F20016922A /* Release */,
+				A52B636D21376228009F7ADF /* Dogfood */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -397,6 +565,7 @@
 			buildConfigurations = (
 				A5CEC22120E436F20016922A /* Debug */,
 				A5CEC22220E436F20016922A /* Release */,
+				A52B636E21376228009F7ADF /* Dogfood */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
