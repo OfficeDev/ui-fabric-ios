@@ -19,7 +19,7 @@ private let appCenterSecret = "da3f18f5-0392-4d18-9543-a0c47a1f3681"
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
     var window: UIWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         let splitViewController = window!.rootViewController as! UISplitViewController
         let masterContainer = splitViewController.viewControllers.first as! UINavigationController
         let masterController = masterContainer.topViewController as! MasterViewController
