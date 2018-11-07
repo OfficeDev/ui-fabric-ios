@@ -10,6 +10,7 @@
 		693773C40AE2B690393E36D2 /* Pods_OfficeUIFabric_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67438D47B2FE8A0087C02A1C /* Pods_OfficeUIFabric_Demo.framework */; };
 		A589F856211BA71000471C23 /* MSLabelDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A589F855211BA71000471C23 /* MSLabelDemoController.swift */; };
 		A591A3F420F429EB001ED23B /* Demos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A591A3F320F429EB001ED23B /* Demos.swift */; };
+		A5961FA9218A61BB00E2A506 /* MSPopupMenuDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5961FA8218A61BB00E2A506 /* MSPopupMenuDemoController.swift */; };
 		A5CEC21020E436F10016922A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CEC20F20E436F10016922A /* AppDelegate.swift */; };
 		A5CEC21220E436F10016922A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CEC21120E436F10016922A /* MasterViewController.swift */; };
 		A5CEC21420E436F10016922A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CEC21320E436F10016922A /* DetailViewController.swift */; };
@@ -47,6 +48,7 @@
 		A52B637A2137834A009F7ADF /* Pods-OfficeUIFabric.Demo.dogfood.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-OfficeUIFabric.Demo.dogfood.xcconfig"; path = "Pods/Target Support Files/Pods-OfficeUIFabric.Demo/Pods-OfficeUIFabric.Demo.dogfood.xcconfig"; sourceTree = "<group>"; };
 		A589F855211BA71000471C23 /* MSLabelDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSLabelDemoController.swift; sourceTree = "<group>"; };
 		A591A3F320F429EB001ED23B /* Demos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demos.swift; sourceTree = "<group>"; };
+		A5961FA8218A61BB00E2A506 /* MSPopupMenuDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSPopupMenuDemoController.swift; sourceTree = "<group>"; };
 		A5CEC20C20E436F10016922A /* OfficeUIFabric.Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfficeUIFabric.Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CEC20F20E436F10016922A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5CEC21120E436F10016922A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				A5DCA75D211E3A92005F4CB7 /* MSDrawerDemoController.swift */,
 				A589F855211BA71000471C23 /* MSLabelDemoController.swift */,
 				B4EF53C4215C45C400573E8F /* MSPersonaListViewDemoController.swift */,
+				A5961FA8218A61BB00E2A506 /* MSPopupMenuDemoController.swift */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5961FA9218A61BB00E2A506 /* MSPopupMenuDemoController.swift in Sources */,
 				B42760DD21488FFA0021A4F7 /* MSAvatarViewDemoController.swift in Sources */,
 				A5DCA760211E3B4C005F4CB7 /* DemoController.swift in Sources */,
 				B4EF53C5215C45C400573E8F /* MSPersonaListViewDemoController.swift in Sources */,
