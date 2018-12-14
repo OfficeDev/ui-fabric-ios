@@ -24,7 +24,7 @@
 		B42760DD21488FFA0021A4F7 /* MSAvatarViewDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42760DC21488FFA0021A4F7 /* MSAvatarViewDemoController.swift */; };
 		B444D6B82183BA4B0002B4D4 /* MSBadgeViewDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B444D6B72183BA4B0002B4D4 /* MSBadgeViewDemoController.swift */; };
 		B4EF53C5215C45C400573E8F /* MSPersonaListViewDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF53C4215C45C400573E8F /* MSPersonaListViewDemoController.swift */; };
-		FD7254ED21471A3F002F4069 /* MSDatePickerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7254EC21471A3F002F4069 /* MSDatePickerDemoController.swift */; };
+		FD7254ED21471A3F002F4069 /* MSDateTimePickerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7254EC21471A3F002F4069 /* MSDateTimePickerDemoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,7 +64,7 @@
 		B444D6B72183BA4B0002B4D4 /* MSBadgeViewDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSBadgeViewDemoController.swift; sourceTree = "<group>"; };
 		B4EF53C4215C45C400573E8F /* MSPersonaListViewDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSPersonaListViewDemoController.swift; sourceTree = "<group>"; };
 		CC45042B8AC98E3E251FC7E9 /* Pods-OfficeUIFabric.Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeUIFabric.Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OfficeUIFabric.Demo/Pods-OfficeUIFabric.Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		FD7254EC21471A3F002F4069 /* MSDatePickerDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSDatePickerDemoController.swift; sourceTree = "<group>"; };
+		FD7254EC21471A3F002F4069 /* MSDateTimePickerDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSDateTimePickerDemoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,8 +156,7 @@
 			children = (
 				B42760DC21488FFA0021A4F7 /* MSAvatarViewDemoController.swift */,
 				B444D6B72183BA4B0002B4D4 /* MSBadgeViewDemoController.swift */,
-				A5CEC23320E452FA0016922A /* MSButtonDemoController.swift */,
-				FD7254EC21471A3F002F4069 /* MSDatePickerDemoController.swift */,
+				FD7254EC21471A3F002F4069 /* MSDateTimePickerDemoController.swift */,
 				A5DCA75D211E3A92005F4CB7 /* MSDrawerDemoController.swift */,
 				A589F855211BA71000471C23 /* MSLabelDemoController.swift */,
 				B4EF53C4215C45C400573E8F /* MSPersonaListViewDemoController.swift */,
@@ -290,7 +289,7 @@
 				B4EF53C5215C45C400573E8F /* MSPersonaListViewDemoController.swift in Sources */,
 				A5DCA75E211E3A92005F4CB7 /* MSDrawerDemoController.swift in Sources */,
 				A5CEC21420E436F10016922A /* DetailViewController.swift in Sources */,
-				FD7254ED21471A3F002F4069 /* MSDatePickerDemoController.swift in Sources */,
+				FD7254ED21471A3F002F4069 /* MSDateTimePickerDemoController.swift in Sources */,
 				A5CEC21220E436F10016922A /* MasterViewController.swift in Sources */,
 				A589F856211BA71000471C23 /* MSLabelDemoController.swift in Sources */,
 				A5CEC21020E436F10016922A /* AppDelegate.swift in Sources */,
