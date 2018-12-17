@@ -23,6 +23,7 @@
 		A5DCA760211E3B4C005F4CB7 /* DemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DCA75F211E3B4C005F4CB7 /* DemoController.swift */; };
 		B42760DD21488FFA0021A4F7 /* MSAvatarViewDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42760DC21488FFA0021A4F7 /* MSAvatarViewDemoController.swift */; };
 		B444D6B82183BA4B0002B4D4 /* MSBadgeViewDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B444D6B72183BA4B0002B4D4 /* MSBadgeViewDemoController.swift */; };
+		B45EB79221A4D047008646A2 /* MSBadgeFieldDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45EB79121A4D047008646A2 /* MSBadgeFieldDemoController.swift */; };
 		B4EF53C5215C45C400573E8F /* MSPersonaListViewDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF53C4215C45C400573E8F /* MSPersonaListViewDemoController.swift */; };
 		FD7254ED21471A3F002F4069 /* MSDateTimePickerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7254EC21471A3F002F4069 /* MSDateTimePickerDemoController.swift */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,7 @@
 		A5DCA75F211E3B4C005F4CB7 /* DemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoController.swift; sourceTree = "<group>"; };
 		B42760DC21488FFA0021A4F7 /* MSAvatarViewDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSAvatarViewDemoController.swift; sourceTree = "<group>"; };
 		B444D6B72183BA4B0002B4D4 /* MSBadgeViewDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSBadgeViewDemoController.swift; sourceTree = "<group>"; };
+		B45EB79121A4D047008646A2 /* MSBadgeFieldDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSBadgeFieldDemoController.swift; sourceTree = "<group>"; };
 		B4EF53C4215C45C400573E8F /* MSPersonaListViewDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSPersonaListViewDemoController.swift; sourceTree = "<group>"; };
 		CC45042B8AC98E3E251FC7E9 /* Pods-OfficeUIFabric.Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeUIFabric.Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OfficeUIFabric.Demo/Pods-OfficeUIFabric.Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		FD7254EC21471A3F002F4069 /* MSDateTimePickerDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSDateTimePickerDemoController.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				B42760DC21488FFA0021A4F7 /* MSAvatarViewDemoController.swift */,
+				B45EB79121A4D047008646A2 /* MSBadgeFieldDemoController.swift */,
 				B444D6B72183BA4B0002B4D4 /* MSBadgeViewDemoController.swift */,
 				FD7254EC21471A3F002F4069 /* MSDateTimePickerDemoController.swift */,
 				A5DCA75D211E3A92005F4CB7 /* MSDrawerDemoController.swift */,
@@ -286,6 +289,7 @@
 				A5961FA9218A61BB00E2A506 /* MSPopupMenuDemoController.swift in Sources */,
 				B42760DD21488FFA0021A4F7 /* MSAvatarViewDemoController.swift in Sources */,
 				A5DCA760211E3B4C005F4CB7 /* DemoController.swift in Sources */,
+				B45EB79221A4D047008646A2 /* MSBadgeFieldDemoController.swift in Sources */,
 				B4EF53C5215C45C400573E8F /* MSPersonaListViewDemoController.swift in Sources */,
 				A5DCA75E211E3A92005F4CB7 /* MSDrawerDemoController.swift in Sources */,
 				A5CEC21420E436F10016922A /* DetailViewController.swift in Sources */,
