@@ -26,6 +26,7 @@
 		B45EB79221A4D047008646A2 /* MSBadgeFieldDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45EB79121A4D047008646A2 /* MSBadgeFieldDemoController.swift */; };
 		B4EF53C5215C45C400573E8F /* MSPersonaListViewDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF53C4215C45C400573E8F /* MSPersonaListViewDemoController.swift */; };
 		FD7254ED21471A3F002F4069 /* MSDateTimePickerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7254EC21471A3F002F4069 /* MSDateTimePickerDemoController.swift */; };
+		FDCF7C8321BF35680058E9E6 /* MSSegmentedControlDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCF7C8221BF35680058E9E6 /* MSSegmentedControlDemoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +68,7 @@
 		B4EF53C4215C45C400573E8F /* MSPersonaListViewDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSPersonaListViewDemoController.swift; sourceTree = "<group>"; };
 		CC45042B8AC98E3E251FC7E9 /* Pods-OfficeUIFabric.Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeUIFabric.Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OfficeUIFabric.Demo/Pods-OfficeUIFabric.Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		FD7254EC21471A3F002F4069 /* MSDateTimePickerDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSDateTimePickerDemoController.swift; sourceTree = "<group>"; };
+		FDCF7C8221BF35680058E9E6 /* MSSegmentedControlDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSSegmentedControlDemoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				A589F855211BA71000471C23 /* MSLabelDemoController.swift */,
 				B4EF53C4215C45C400573E8F /* MSPersonaListViewDemoController.swift */,
 				A5961FA8218A61BB00E2A506 /* MSPopupMenuDemoController.swift */,
+				FDCF7C8221BF35680058E9E6 /* MSSegmentedControlDemoController.swift */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				A5CEC21420E436F10016922A /* DetailViewController.swift in Sources */,
 				FD7254ED21471A3F002F4069 /* MSDateTimePickerDemoController.swift in Sources */,
 				A5CEC21220E436F10016922A /* MasterViewController.swift in Sources */,
+				FDCF7C8321BF35680058E9E6 /* MSSegmentedControlDemoController.swift in Sources */,
 				A589F856211BA71000471C23 /* MSLabelDemoController.swift in Sources */,
 				A5CEC21020E436F10016922A /* AppDelegate.swift in Sources */,
 				B444D6B82183BA4B0002B4D4 /* MSBadgeViewDemoController.swift in Sources */,
