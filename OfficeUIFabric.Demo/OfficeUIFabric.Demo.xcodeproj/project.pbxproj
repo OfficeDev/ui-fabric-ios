@@ -209,6 +209,7 @@
 				TargetAttributes = {
 					A5CEC20B20E436F10016922A = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -410,7 +411,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "4596e7d8-5232-4b9f-82bf-63883e38cd5c";
 				PROVISIONING_PROFILE_SPECIFIER = "Office Fabric Demo Dogfood Distribution";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Dogfood;
@@ -549,7 +550,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "63d62159-2691-4b44-9553-b668cc1746c1";
 				PROVISIONING_PROFILE_SPECIFIER = "Office UI Fabric Demo Development";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -572,7 +573,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "63d62159-2691-4b44-9553-b668cc1746c1";
 				PROVISIONING_PROFILE_SPECIFIER = "Office UI Fabric Demo Development";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
