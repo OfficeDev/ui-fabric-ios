@@ -16,7 +16,7 @@ open class MSLabel: UILabel {
     }
     /**
      The maximum allowed size point for the receiver's font. This property can be used
-     to restrict the largest size of the label when scaling due to DynamicType. The
+     to restrict the largest size of the label when scaling due to Dynamic Type. The
      default value is 0, indicating there is no maximum size.
      */
     @objc open var maxFontSize: CGFloat = 0 {
